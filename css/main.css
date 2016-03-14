@@ -1,12 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
-#header, #services, #features {
-  background-color: rgba(0, 255, 0, 0.3); }
-
-#home-slider {
-  background-color: rgba(255, 0, 0, 0.3); }
-
 /* HTML */
 body {
   background: #fff;
@@ -15,6 +9,15 @@ body {
   font-weight: 300;
   font-size: 14px;
   line-height: 22px; }
+  body h1, body h2, body h2, body h3, body h4, body h5, body h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600; }
+  body h1, body h2 {
+    color: #686868; }
+  body h2 {
+    font-size: 24px; }
+  body h3 {
+    font-size: 18px; }
 
 html {
   height: 100%; }
@@ -30,21 +33,6 @@ a {
 
 ul {
   list-style: none; }
-
-h1, h2, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 600;
-  margin: 0;
-  padding: 0; }
-
-h1, h2 {
-  color: #686868; }
-
-h2 {
-  font-size: 24px; }
-
-h3 {
-  font-size: 18px; }
 
 .padding {
   padding: 65px 0 20px; }
@@ -70,7 +58,7 @@ h3 {
 
 #header .navbar-nav.navbar-right > li a {
   color: #000;
-  font-size: 12px;
+  font-size: 16px;
   padding: 20px;
   font-weight: 300; }
   #header .navbar-nav.navbar-right > li a:hover {
@@ -199,9 +187,24 @@ footer {
   background: url(../images/home/footer.png) 0 100% no-repeat; }
   footer h2 {
     margin-bottom: 70px; }
+  footer a {
+    color: #d29948; }
+    footer a:hover {
+      text-decoration: none; }
+  footer blockquote {
+    border-left: none; }
 
-.form-control {
+.form-group .form-control {
   border: 1px solid #d29948; }
+.form-group textarea {
+  resize: none; }
+.form-group .btn-submit {
+  background-color: #d29948;
+  box-shadow: 0px 3px #a5732a;
+  color: #fff;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
 
